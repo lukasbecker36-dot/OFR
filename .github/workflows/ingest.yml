@@ -7,22 +7,26 @@ on:
   # Also allow manual runs from the Actions tab
   workflow_dispatch:
     inputs:
+      mode:
+        description: 'What to run'
+        type: choice
+        required: false
+        default: ingest
+        options:
+          - ingest
+          - export-csv
+          - diagnose
       dataset:
-        description: 'Single dataset to ingest (fpf, tff, scoos, ficc) — leave blank for all'
+        description: 'Dataset filter (fpf, tff, scoos, ficc) — leave blank for all'
         required: false
         default: ''
       since:
-        description: 'Only fetch data from this date onward (YYYY-MM-DD) — leave blank for full pull'
+        description: 'Date filter YYYY-MM-DD (ingest: fetch from, export: data from)'
         required: false
         default: ''
-      diagnose:
-        description: 'Run diagnostic mode only (dump raw API responses, no DB writes)'
-        type: boolean
-        required: false
-        default: false
 
 jobs:
-  ingest:
+  run:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,21 +40,42 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # ── Diagnose ────────────────────────────────────────────────────────────
       - name: Diagnose API (dump raw responses)
-        if: ${{ inputs.diagnose == true }}
+        if: ${{ inputs.mode == 'diagnose' }}
         run: npm run diagnose
 
+      # ── Ingest ──────────────────────────────────────────────────────────────
       - name: Run ingest
-        if: ${{ inputs.diagnose != true }}
+        if: ${{ inputs.mode == 'ingest' || github.event_name == 'schedule' }}
         env:
           TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
         run: |
           ARGS=""
-          if [ -n "${{ inputs.dataset }}" ]; then
-            ARGS="$ARGS --dataset ${{ inputs.dataset }}"
-          fi
-          if [ -n "${{ inputs.since }}" ]; then
-            ARGS="$ARGS --since ${{ inputs.since }}"
-          fi
+          [ -n "${{ inputs.dataset }}" ] && ARGS="$ARGS --dataset ${{ inputs.dataset }}"
+          [ -n "${{ inputs.since }}"   ] && ARGS="$ARGS --since ${{ inputs.since }}"
           npm run ingest -- $ARGS
+
+      # ── Export CSV ──────────────────────────────────────────────────────────
+      - name: Export CSV
+        if: ${{ inputs.mode == 'export-csv' }}
+        env:
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        run: |
+          ARGS=""
+          [ -n "${{ inputs.dataset }}" ] && ARGS="$ARGS --dataset ${{ inputs.dataset }}"
+          [ -n "${{ inputs.since }}"   ] && ARGS="$ARGS --since ${{ inputs.since }}"
+          npm run export-csv -- $ARGS
+
+      - name: Upload CSV files
+        if: ${{ inputs.mode == 'export-csv' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ofr-export
+          path: |
+            metadata.csv
+            data.csv
+            combined.csv
+          retention-days: 7
