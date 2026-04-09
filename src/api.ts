@@ -1,22 +1,41 @@
 /**
  * OFR Hedge Fund Monitor API client.
  *
- * The API lives at https://data.financialresearch.gov/hf/v1/
- * No authentication required. Data updates at most once per day.
+ * Actual response formats (confirmed via diagnostic):
  *
- * Because this environment cannot reach the API to probe response formats,
- * the parser is defensive: it tries multiple known shapes, logs what it sees,
- * and never crashes on unexpected structure — it returns empty data and warns.
+ * GET /metadata/mnemonics
+ *   → string[]  e.g. ["FICC-SPONSORED_REPO_VOL", "FPF-ALLQHF_GAV_SUM", ...]
  *
- * Run `npm run ingest -- --debug` on first use to see the raw response shapes
- * and confirm that parsing worked correctly.
+ * GET /series/dataset?dataset=fpf
+ *   → {
+ *       short_name: string,
+ *       long_name: string,
+ *       timeseries: {
+ *         [mnemonic]: {
+ *           timeseries: { aggregation: [["YYYY-MM-DD", number], ...] },
+ *           metadata: {
+ *             mnemonic: string,
+ *             description: { name: string, notes: string, description: string },
+ *             schedule: { observation_frequency: string, last_update: string },
+ *             release: { short_name: string, frequency: string, long_name: string },
+ *             unit: { type: string, name: string }
+ *           }
+ *         }
+ *       }
+ *     }
+ *
+ * GET /series/timeseries?mnemonic=X
+ *   → same shape as a single entry inside dataset.timeseries (unconfirmed, handled defensively)
+ *
+ * GET /metadata/search?query=X
+ *   → [] (appears to be non-functional or empty)
  */
 
 const BASE_URL = "https://data.financialresearch.gov/hf/v1";
 const DATASETS = ["fpf", "tff", "scoos", "ficc"] as const;
 export type Dataset = (typeof DATASETS)[number];
 
-// ─── Public types ────────────────────────────────────────────────────────────
+// ─── Public types ─────────────────────────────────────────────────────────────
 
 export interface MnemonicMeta {
   mnemonic: string;
@@ -37,7 +56,7 @@ export interface SeriesResult {
   data: TimeSeriesPoint[];
 }
 
-// ─── Internal config ─────────────────────────────────────────────────────────
+// ─── Internal config ──────────────────────────────────────────────────────────
 
 let debugMode = false;
 
@@ -45,16 +64,17 @@ export function setDebugMode(on: boolean): void {
   debugMode = on;
 }
 
-// ─── Date normalisation ───────────────────────────────────────────────────────
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+
+/** Infer dataset name from mnemonic prefix (e.g. "FPF-..." → "fpf"). */
+function inferDataset(mnemonic: string): string {
+  return mnemonic.split("-")[0].toLowerCase();
+}
 
 /**
- * Convert whatever the API gives us into YYYY-MM-DD.
- * Handles:
- *   - Unix ms timestamps (numbers or numeric strings > 1e10)
- *   - Unix s  timestamps (numbers < 1e10)
- *   - ISO strings with time component ("2023-01-01T00:00:00Z")
- *   - Plain "YYYY-MM-DD"
- *   - "MM/DD/YYYY"
+ * Normalize a date value to YYYY-MM-DD.
+ * The OFR API already returns ISO date strings, but this handles edge cases
+ * (Unix ms timestamps from Highcharts, quarter notation, etc.).
  */
 export function normalizeDate(raw: string | number): string {
   if (typeof raw === "number" || /^\d{10,13}$/.test(String(raw))) {
@@ -63,175 +83,72 @@ export function normalizeDate(raw: string | number): string {
     return new Date(ms).toISOString().slice(0, 10);
   }
   const s = String(raw).trim();
-  // ISO with time
   if (/^\d{4}-\d{2}-\d{2}T/.test(s)) return s.slice(0, 10);
-  // Plain ISO
   if (/^\d{4}-\d{2}-\d{2}$/.test(s)) return s;
-  // Quarter notation: "2024Q1", "2024Q2", etc. (common in OFR/SEC quarterly data)
+  // Quarter notation: "2024Q1" → "2024-01-01"
   const qMatch = s.match(/^(\d{4})Q(\d)$/i);
   if (qMatch) {
     const quarterStart = ["01", "04", "07", "10"][parseInt(qMatch[2]) - 1];
     return `${qMatch[1]}-${quarterStart}-01`;
   }
-  // MM/DD/YYYY
   if (/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(s)) {
     const [m, d, y] = s.split("/");
     return `${y}-${m.padStart(2, "0")}-${d.padStart(2, "0")}`;
   }
-  // Fall back: try Date constructor
   const parsed = new Date(s);
   if (!isNaN(parsed.getTime())) return parsed.toISOString().slice(0, 10);
   throw new Error(`Cannot normalise date: ${JSON.stringify(raw)}`);
 }
 
-// ─── Response format detection ────────────────────────────────────────────────
-
-type RawAny = unknown;
-
 /**
- * Detect format and extract [date, value] pairs from an unknown response body.
- * Returns null if the format is completely unrecognised.
+ * Parse an aggregation array: [["YYYY-MM-DD", value], ...]
+ * This is the actual format returned by the OFR dataset endpoint.
  */
-function extractPoints(raw: RawAny): TimeSeriesPoint[] | null {
-  if (Array.isArray(raw)) {
-    // Highcharts flat array: [[timestamp_ms, value], ...]
-    if (raw.length > 0 && Array.isArray(raw[0]) && raw[0].length === 2) {
-      return raw.map(([d, v]: [string | number, number | null]) => ({
-        date: normalizeDate(d),
-        value: v ?? null,
-      }));
-    }
-    // Array of {date, value} objects
-    if (
-      raw.length > 0 &&
-      typeof raw[0] === "object" &&
-      raw[0] !== null &&
-      ("date" in raw[0] || "Date" in raw[0])
-    ) {
-      return raw.map((pt: Record<string, unknown>) => ({
-        date: normalizeDate((pt.date ?? pt.Date ?? pt.period ?? "") as string | number),
-        value: (pt.value ?? pt.Value ?? pt.obs_value ?? null) as number | null,
-      }));
-    }
-    return null;
-  }
-
-  if (typeof raw !== "object" || raw === null) return null;
-  const obj = raw as Record<string, unknown>;
-
-  // Parallel arrays: {dates: [...], values: [...]}
-  if (Array.isArray(obj.dates) && Array.isArray(obj.values)) {
-    return (obj.dates as (string | number)[]).map((d, i) => ({
-      date: normalizeDate(d),
-      value: ((obj.values as (number | null)[])[i] ?? null),
-    }));
-  }
-  if (Array.isArray(obj.date) && Array.isArray(obj.value)) {
-    return (obj.date as (string | number)[]).map((d, i) => ({
-      date: normalizeDate(d),
-      value: ((obj.value as (number | null)[])[i] ?? null),
-    }));
-  }
-
-  // Nested data array: {data: [...]}
-  if (Array.isArray(obj.data)) {
-    return extractPoints(obj.data);
-  }
-
-  // Highcharts wrapper: {series: [{name, data: [[ts, val]]}]}
-  if (Array.isArray(obj.series)) {
-    const first = (obj.series as RawAny[])[0];
-    if (first && typeof first === "object" && Array.isArray((first as Record<string, unknown>).data)) {
-      return extractPoints((first as Record<string, unknown>).data);
+function parseAggregation(aggregation: unknown): TimeSeriesPoint[] {
+  if (!Array.isArray(aggregation)) return [];
+  const points: TimeSeriesPoint[] = [];
+  for (const pair of aggregation) {
+    if (!Array.isArray(pair) || pair.length < 2) continue;
+    try {
+      const date = normalizeDate(pair[0] as string | number);
+      const raw = pair[1];
+      const value = raw === null || raw === undefined ? null : Number(raw);
+      points.push({ date, value: value !== null && isFinite(value) ? value : null });
+    } catch {
+      // skip malformed entries
     }
   }
-
-  return null;
+  return points;
 }
 
 /**
- * Extract an array of {mnemonic, data[]} from a dataset response.
- * A dataset response may be:
- *   - An array of series objects
- *   - An object keyed by mnemonic
- *   - A Highcharts multi-series array
+ * Extract rich metadata from the nested metadata object inside a series entry.
+ *
+ * Structure:
+ *   metadata.description.name    → human-readable series name
+ *   metadata.schedule.observation_frequency → "Quarterly", "Monthly", etc.
+ *   metadata.schedule.last_update           → "2026-03-11 16:35:38"
+ *   metadata.release.short_name             → category / release name
  */
-function extractSeriesArray(raw: RawAny, dataset: string): SeriesResult[] {
-  if (debugMode) {
-    const shape =
-      Array.isArray(raw)
-        ? `Array[${(raw as RawAny[]).length}]`
-        : typeof raw === "object" && raw !== null
-        ? `Object{${Object.keys(raw as object).slice(0, 10).join(",")}}`
-        : typeof raw;
-    console.log(`  [DEBUG] /series/dataset?dataset=${dataset} shape: ${shape}`);
-    if (Array.isArray(raw) && (raw as RawAny[]).length > 0) {
-      const first = (raw as RawAny[])[0];
-      console.log(`  [DEBUG] First element keys: ${typeof first === "object" && first ? Object.keys(first as object).join(",") : typeof first}`);
-    }
-  }
-
-  const results: SeriesResult[] = [];
-
-  if (Array.isArray(raw)) {
-    for (const item of raw as RawAny[]) {
-      if (typeof item !== "object" || item === null) continue;
-      const obj = item as Record<string, unknown>;
-
-      const mnemonic =
-        (obj.mnemonic ?? obj.Mnemonic ?? obj.name ?? obj.id ?? obj.series_id) as string | undefined;
-      if (!mnemonic) continue;
-
-      const points = extractPoints(obj.data ?? obj.observations ?? item);
-      results.push({
-        mnemonic: String(mnemonic),
-        metadata: extractMeta(obj, dataset),
-        data: points ?? [],
-      });
-    }
-    return results;
-  }
-
-  if (typeof raw === "object" && raw !== null) {
-    const obj = raw as Record<string, unknown>;
-
-    // Object keyed by mnemonic: {"FPF-XXX": {data: [...]}, ...}
-    for (const [key, val] of Object.entries(obj)) {
-      if (key === "metadata" || key === "meta") continue;
-      const points = extractPoints(val);
-      if (points !== null) {
-        results.push({ mnemonic: key, data: points });
-      }
-    }
-    if (results.length > 0) return results;
-
-    // Maybe it's a single series wrapped in an object
-    const points = extractPoints(raw);
-    if (points !== null) {
-      const mnemonic = (obj.mnemonic ?? obj.name ?? dataset) as string;
-      results.push({ mnemonic: String(mnemonic), metadata: extractMeta(obj, dataset), data: points });
-    }
-  }
-
-  return results;
-}
-
-/** Extract whatever metadata fields exist on a raw series object. */
-function extractMeta(
-  obj: Record<string, unknown>,
+function parseSeriesMetadata(
+  meta: Record<string, unknown>,
   dataset: string
 ): Partial<MnemonicMeta> {
+  const desc = (meta.description ?? {}) as Record<string, unknown>;
+  const schedule = (meta.schedule ?? {}) as Record<string, unknown>;
+  const release = (meta.release ?? {}) as Record<string, unknown>;
+
   return {
-    dataset: (obj.dataset ?? obj.source ?? dataset) as string,
-    category: (obj.category ?? obj.Category ?? obj.group ?? undefined) as string | undefined,
-    description: (obj.description ?? obj.Description ?? obj.label ?? obj.name ?? undefined) as string | undefined,
-    frequency: (obj.frequency ?? obj.Frequency ?? obj.periodicity ?? undefined) as string | undefined,
+    dataset,
+    description: String(desc.name ?? desc.description ?? ""),
+    category: String(release.short_name ?? release.long_name ?? ""),
+    frequency: String(schedule.observation_frequency ?? release.frequency ?? ""),
   };
 }
 
-// ─── Rate-limiting + retry fetch ─────────────────────────────────────────────
+// ─── Rate-limiting + retry fetch ──────────────────────────────────────────────
 
-const DELAY_MS = 500; // between requests — polite
+const DELAY_MS = 500;
 const MAX_RETRIES = 3;
 
 function sleep(ms: number): Promise<void> {
@@ -241,7 +158,6 @@ function sleep(ms: number): Promise<void> {
 let _lastRequestTime = 0;
 
 async function apiFetch(url: string): Promise<unknown> {
-  // Throttle to one request per DELAY_MS
   const now = Date.now();
   const wait = DELAY_MS - (now - _lastRequestTime);
   if (wait > 0) await sleep(wait);
@@ -268,8 +184,8 @@ async function apiFetch(url: string): Promise<unknown> {
     if (resp.ok) {
       const body = await resp.json();
       if (debugMode) {
-        const preview = JSON.stringify(body).slice(0, 300);
-        console.log(`  [DEBUG] Response (first 300 chars): ${preview}`);
+        const preview = JSON.stringify(body).slice(0, 400);
+        console.log(`  [DEBUG] Response: ${preview}`);
       }
       return body;
     }
@@ -282,7 +198,8 @@ async function apiFetch(url: string): Promise<unknown> {
       continue;
     }
 
-    throw new Error(`OFR API error: HTTP ${resp.status} for ${url}`);
+    const text = await resp.text().catch(() => "");
+    throw new Error(`OFR API error: HTTP ${resp.status} ${text.slice(0, 100)} for ${url}`);
   }
 }
 
@@ -294,49 +211,42 @@ function buildUrl(path: string, params: Record<string, string | undefined>): str
   return url.toString();
 }
 
-// ─── Public API functions ─────────────────────────────────────────────────────
+// ─── Public API functions ──────────────────────────────────────────────────────
 
 /**
- * Fetch the full mnemonics catalogue from /metadata/mnemonics.
+ * Fetch the mnemonic catalogue.
+ * Returns a flat string[] — dataset is inferred from the mnemonic prefix.
  */
 export async function fetchMnemonics(): Promise<MnemonicMeta[]> {
   const raw = await apiFetch(`${BASE_URL}/metadata/mnemonics`);
 
-  if (debugMode) {
-    const shape = Array.isArray(raw)
-      ? `Array[${(raw as RawAny[]).length}]`
-      : typeof raw === "object" && raw !== null
-      ? `Object{${Object.keys(raw as object).slice(0, 10).join(",")}}`
-      : typeof raw;
-    console.log(`  [DEBUG] /metadata/mnemonics shape: ${shape}`);
-    if (Array.isArray(raw) && (raw as RawAny[]).length > 0) {
-      console.log(`  [DEBUG] First mnemonic entry: ${JSON.stringify((raw as RawAny[])[0])}`);
-    }
+  // Response is a plain string[]: ["FICC-SPONSORED_REPO_VOL", "FPF-ALLQHF_GAV_SUM", ...]
+  if (!Array.isArray(raw)) {
+    console.warn("  [WARN] /metadata/mnemonics: unexpected response shape");
+    return [];
   }
 
-  const items: RawAny[] = Array.isArray(raw)
-    ? (raw as RawAny[])
-    : Array.isArray((raw as Record<string, unknown>).data)
-    ? ((raw as Record<string, unknown>).data as RawAny[])
-    : Array.isArray((raw as Record<string, unknown>).mnemonics)
-    ? ((raw as Record<string, unknown>).mnemonics as RawAny[])
-    : [];
-
-  return items
-    .filter((item): item is Record<string, unknown> => typeof item === "object" && item !== null)
-    .map((item) => ({
-      mnemonic: String(item.mnemonic ?? item.Mnemonic ?? item.id ?? item.series_id ?? ""),
-      dataset: String(item.dataset ?? item.source ?? item.group ?? ""),
-      category: (item.category ?? item.Category ?? undefined) as string | undefined,
-      description: (item.description ?? item.Description ?? item.label ?? undefined) as string | undefined,
-      frequency: (item.frequency ?? item.Frequency ?? item.periodicity ?? undefined) as string | undefined,
-    }))
-    .filter((m) => m.mnemonic !== "");
+  return raw
+    .filter((s): s is string => typeof s === "string" && s.length > 0)
+    .map((mnemonic) => ({
+      mnemonic,
+      dataset: inferDataset(mnemonic),
+    }));
 }
 
 /**
- * Fetch all series for a dataset.
- * Passes start_date when `since` is provided (incremental updates).
+ * Fetch all series for a dataset, including embedded metadata and data points.
+ *
+ * Response shape:
+ *   {
+ *     short_name, long_name,
+ *     timeseries: {
+ *       [mnemonic]: {
+ *         timeseries: { aggregation: [["YYYY-MM-DD", value], ...] },
+ *         metadata: { description: {name}, schedule: {observation_frequency}, release: {short_name} }
+ *       }
+ *     }
+ *   }
  */
 export async function fetchDataset(
   dataset: string,
@@ -348,19 +258,47 @@ export async function fetchDataset(
   });
 
   const raw = await apiFetch(url);
-  const series = extractSeriesArray(raw, dataset);
 
-  if (series.length === 0) {
-    console.warn(
-      `  [WARN] No series parsed for dataset "${dataset}". Run with --debug to inspect the raw response.`
-    );
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
+    console.warn(`  [WARN] Unexpected top-level shape for dataset "${dataset}"`);
+    return [];
   }
 
-  return series;
+  const obj = raw as Record<string, unknown>;
+  const tsMap = obj.timeseries;
+
+  if (!tsMap || typeof tsMap !== "object" || Array.isArray(tsMap)) {
+    console.warn(`  [WARN] No "timeseries" key in dataset "${dataset}" response`);
+    return [];
+  }
+
+  const results: SeriesResult[] = [];
+
+  for (const [mnemonic, entry] of Object.entries(tsMap as Record<string, unknown>)) {
+    if (!entry || typeof entry !== "object") continue;
+    const e = entry as Record<string, unknown>;
+
+    // Data: e.timeseries.aggregation
+    const innerTs = (e.timeseries ?? {}) as Record<string, unknown>;
+    const points = parseAggregation(innerTs.aggregation);
+
+    // Metadata: e.metadata
+    const meta = (e.metadata ?? {}) as Record<string, unknown>;
+    const parsedMeta = parseSeriesMetadata(meta, dataset);
+
+    results.push({ mnemonic, metadata: parsedMeta, data: points });
+  }
+
+  if (results.length === 0) {
+    console.warn(`  [WARN] No series parsed for dataset "${dataset}"`);
+  }
+
+  return results;
 }
 
 /**
  * Fetch a single time series by mnemonic.
+ * The single-series endpoint uses the same nested structure as dataset entries.
  */
 export async function fetchTimeSeries(
   mnemonic: string,
@@ -373,54 +311,48 @@ export async function fetchTimeSeries(
 
   const raw = await apiFetch(url);
 
-  if (debugMode) {
-    const shape =
-      typeof raw === "object" && raw !== null
-        ? `Object{${Object.keys(raw as object).slice(0, 10).join(",")}}`
-        : typeof raw;
-    console.log(`  [DEBUG] /series/timeseries?mnemonic=${mnemonic} shape: ${shape}`);
-  }
-
-  const points = extractPoints(raw);
-
-  if (points === null) {
-    console.warn(
-      `  [WARN] Could not parse timeseries for "${mnemonic}". Run with --debug to inspect the raw response.`
-    );
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) {
     return { mnemonic, data: [] };
   }
 
-  const obj = typeof raw === "object" && raw !== null ? (raw as Record<string, unknown>) : {};
+  const obj = raw as Record<string, unknown>;
+
+  // Try the same nested structure as dataset entries
+  const innerTs = (obj.timeseries ?? {}) as Record<string, unknown>;
+  let points = parseAggregation(innerTs.aggregation);
+
+  // Fallback: maybe aggregation is at the top level
+  if (points.length === 0) {
+    points = parseAggregation(obj.aggregation);
+  }
+
+  const meta = (obj.metadata ?? {}) as Record<string, unknown>;
+
   return {
     mnemonic,
-    metadata: extractMeta(obj, ""),
+    metadata: parseSeriesMetadata(meta, inferDataset(mnemonic)),
     data: points,
   };
 }
 
 /**
  * Search OFR metadata.
+ * Note: this endpoint currently returns [] for all queries; results may be empty.
  */
 export async function searchMetadata(query: string): Promise<MnemonicMeta[]> {
   const url = buildUrl("/metadata/search", { query });
   const raw = await apiFetch(url);
 
-  const items: RawAny[] = Array.isArray(raw)
-    ? (raw as RawAny[])
-    : Array.isArray((raw as Record<string, unknown>).results)
-    ? ((raw as Record<string, unknown>).results as RawAny[])
-    : Array.isArray((raw as Record<string, unknown>).data)
-    ? ((raw as Record<string, unknown>).data as RawAny[])
-    : [];
+  if (!Array.isArray(raw)) return [];
 
-  return items
+  return raw
     .filter((item): item is Record<string, unknown> => typeof item === "object" && item !== null)
     .map((item) => ({
-      mnemonic: String(item.mnemonic ?? item.id ?? item.series_id ?? ""),
-      dataset: String(item.dataset ?? item.source ?? ""),
+      mnemonic: String(item.mnemonic ?? item.id ?? ""),
+      dataset: String(item.dataset ?? ""),
       category: (item.category ?? undefined) as string | undefined,
-      description: (item.description ?? item.label ?? undefined) as string | undefined,
-      frequency: (item.frequency ?? item.periodicity ?? undefined) as string | undefined,
+      description: (item.description ?? item.name ?? undefined) as string | undefined,
+      frequency: (item.frequency ?? undefined) as string | undefined,
     }))
     .filter((m) => m.mnemonic !== "");
 }
