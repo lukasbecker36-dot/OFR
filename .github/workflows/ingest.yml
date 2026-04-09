@@ -1,0 +1,46 @@
+name: OFR Data Ingest
+
+on:
+  # Run daily at 6am UTC (OFR updates at most once per day)
+  schedule:
+    - cron: '0 6 * * *'
+  # Also allow manual runs from the Actions tab
+  workflow_dispatch:
+    inputs:
+      dataset:
+        description: 'Single dataset to ingest (fpf, tff, scoos, ficc) — leave blank for all'
+        required: false
+        default: ''
+      since:
+        description: 'Only fetch data from this date onward (YYYY-MM-DD) — leave blank for full pull'
+        required: false
+        default: ''
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ingest
+        env:
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.dataset }}" ]; then
+            ARGS="$ARGS --dataset ${{ inputs.dataset }}"
+          fi
+          if [ -n "${{ inputs.since }}" ]; then
+            ARGS="$ARGS --since ${{ inputs.since }}"
+          fi
+          npm run ingest -- $ARGS
