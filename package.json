@@ -7,6 +7,7 @@
     "ingest": "node --import tsx/esm src/ingest.ts",
     "query": "node --import tsx/esm src/cli.ts",
     "diagnose": "node --import tsx/esm src/diagnose.ts",
+    "export-csv": "node --import tsx/esm src/export-csv.ts",
     "typecheck": "tsc --noEmit",
     "build": "tsc"
   },
