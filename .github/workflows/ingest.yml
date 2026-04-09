@@ -20,6 +20,11 @@ on:
         description: 'Dataset filter (fpf, tff, scoos, ficc) — leave blank for all'
         required: false
         default: ''
+      metadata_only:
+        description: 'Only backfill descriptions/categories — skip re-downloading data'
+        type: boolean
+        required: false
+        default: false
       since:
         description: 'Date filter YYYY-MM-DD (ingest: fetch from, export: data from)'
         required: false
@@ -55,8 +60,9 @@ jobs:
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
         run: |
           ARGS=""
-          [ -n "${{ inputs.dataset }}" ] && ARGS="$ARGS --dataset ${{ inputs.dataset }}"
-          [ -n "${{ inputs.since }}"   ] && ARGS="$ARGS --since ${{ inputs.since }}"
+          [ -n "${{ inputs.dataset }}"            ] && ARGS="$ARGS --dataset ${{ inputs.dataset }}"
+          [ -n "${{ inputs.since }}"              ] && ARGS="$ARGS --since ${{ inputs.since }}"
+          [ "${{ inputs.metadata_only }}" = "true" ] && ARGS="$ARGS --metadata-only"
           npm run ingest -- $ARGS
 
       # ── Export CSV ──────────────────────────────────────────────────────────

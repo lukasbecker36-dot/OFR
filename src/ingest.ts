@@ -7,6 +7,7 @@
  *   npm run ingest -- --dataset fpf              # single dataset
  *   npm run ingest -- --since 2024-01-01         # incremental from date
  *   npm run ingest -- --dataset tff --since 2024-01-01
+ *   npm run ingest -- --metadata-only              # backfill descriptions/categories only
  *   npm run ingest -- --dry-run                  # parse API, skip DB writes
  *   npm run ingest -- --debug                    # log raw API responses
  */
@@ -35,6 +36,7 @@ program
   .description("Fetch OFR Hedge Fund Monitor data and store in Turso")
   .option("--dataset <name>", "Only ingest one dataset (fpf|tff|scoos|ficc)")
   .option("--since <date>", "Only fetch data from YYYY-MM-DD onward")
+  .option("--metadata-only", "Only update metadata (descriptions/categories) — skip data points")
   .option("--dry-run", "Parse API responses but do not write to the database")
   .option("--debug", "Log raw API response shapes")
   .parse(process.argv);
@@ -42,6 +44,7 @@ program
 const opts = program.opts<{
   dataset?: string;
   since?: string;
+  metadataOnly?: boolean;
   dryRun?: boolean;
   debug?: boolean;
 }>();
@@ -130,10 +133,13 @@ async function main() {
     process.exit(1);
   }
 
+  const metadataOnly = opts.metadataOnly ?? false;
+
   console.log(`\nOFR → Turso ingestion`);
-  console.log(`  Datasets : ${targetDatasets.join(", ")}`);
-  console.log(`  Since    : ${since ?? "beginning"}`);
-  console.log(`  Dry run  : ${dryRun}`);
+  console.log(`  Datasets      : ${targetDatasets.join(", ")}`);
+  if (!metadataOnly) console.log(`  Since         : ${since ?? "beginning"}`);
+  console.log(`  Metadata only : ${metadataOnly}`);
+  console.log(`  Dry run       : ${dryRun}`);
   console.log();
 
   if (!dryRun) {
@@ -183,41 +189,39 @@ async function main() {
     let datasetPoints = 0;
     let seriesErrors = 0;
 
-    for (const series of seriesList) {
-      // Upsert metadata if we have it and it wasn't from the mnemonics call
-      if (series.metadata && !allMeta.some((m) => m.mnemonic === series.mnemonic)) {
-        await upsertMetadataBatch(
-          [
-            {
-              mnemonic: series.mnemonic,
-              dataset: series.metadata.dataset ?? dataset,
-              category: series.metadata.category,
-              description: series.metadata.description,
-              frequency: series.metadata.frequency,
-            },
-          ],
-          dryRun
-        );
-      }
+    // Always upsert rich metadata from dataset response (has descriptions, frequencies, etc.)
+    const richMeta: MnemonicMeta[] = seriesList
+      .filter((s) => s.metadata)
+      .map((s) => ({
+        mnemonic: s.mnemonic,
+        dataset: s.metadata!.dataset ?? dataset,
+        category: s.metadata!.category,
+        description: s.metadata!.description,
+        frequency: s.metadata!.frequency,
+      }));
+    await upsertMetadataBatch(richMeta, dryRun);
 
-      try {
-        const count = await upsertSeriesData(series, dryRun);
-        datasetPoints += count;
-      } catch (err) {
-        seriesErrors++;
-        console.warn(
-          `  [WARN] Failed to upsert "${series.mnemonic}": ${(err as Error).message}`
-        );
+    if (!metadataOnly) {
+      for (const series of seriesList) {
+        try {
+          const count = await upsertSeriesData(series, dryRun);
+          datasetPoints += count;
+        } catch (err) {
+          seriesErrors++;
+          console.warn(
+            `  [WARN] Failed to upsert "${series.mnemonic}": ${(err as Error).message}`
+          );
+        }
       }
     }
 
     totalSeries += seriesList.length;
     totalPoints += datasetPoints;
 
-    console.log(
-      `  ✓ ${dataset.toUpperCase()}: ${seriesList.length} series, ${datasetPoints} data points` +
-        (seriesErrors > 0 ? `, ${seriesErrors} errors` : "")
-    );
+    const summary = metadataOnly
+      ? `${seriesList.length} series metadata updated`
+      : `${seriesList.length} series, ${datasetPoints} data points` + (seriesErrors > 0 ? `, ${seriesErrors} errors` : "");
+    console.log(`  ✓ ${dataset.toUpperCase()}: ${summary}`);
     console.log();
   }
 
