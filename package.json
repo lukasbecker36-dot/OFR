@@ -6,6 +6,7 @@
   "scripts": {
     "ingest": "node --import tsx/esm src/ingest.ts",
     "query": "node --import tsx/esm src/cli.ts",
+    "diagnose": "node --import tsx/esm src/diagnose.ts",
     "typecheck": "tsc --noEmit",
     "build": "tsc"
   },
