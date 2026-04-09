@@ -67,6 +67,12 @@ export function normalizeDate(raw: string | number): string {
   if (/^\d{4}-\d{2}-\d{2}T/.test(s)) return s.slice(0, 10);
   // Plain ISO
   if (/^\d{4}-\d{2}-\d{2}$/.test(s)) return s;
+  // Quarter notation: "2024Q1", "2024Q2", etc. (common in OFR/SEC quarterly data)
+  const qMatch = s.match(/^(\d{4})Q(\d)$/i);
+  if (qMatch) {
+    const quarterStart = ["01", "04", "07", "10"][parseInt(qMatch[2]) - 1];
+    return `${qMatch[1]}-${quarterStart}-01`;
+  }
   // MM/DD/YYYY
   if (/^\d{1,2}\/\d{1,2}\/\d{4}$/.test(s)) {
     const [m, d, y] = s.split("/");

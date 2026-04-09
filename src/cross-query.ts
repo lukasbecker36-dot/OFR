@@ -75,20 +75,27 @@ export async function crossDateRange(
 ): Promise<CrossRow[]> {
   if (configs.length === 0) return [];
 
-  // Create a client per config and query in parallel
+  // Create a client per config and query in parallel, then close each client
   const clientsAndConfigs = configs.map((cfg) => ({
     cfg,
     client: createClient({ url: cfg.url, authToken: cfg.authToken }),
   }));
 
-  const perDbResults = await Promise.all(
-    clientsAndConfigs.map(({ cfg, client }) =>
-      getDateRange(startDate, endDate, cfg.mnemonics, client).then((rows) => ({
-        cfg,
-        rows,
-      }))
-    )
-  );
+  let perDbResults: Array<{ cfg: DbConfig; rows: AlignedRow[] }>;
+  try {
+    perDbResults = await Promise.all(
+      clientsAndConfigs.map(({ cfg, client }) =>
+        getDateRange(startDate, endDate, cfg.mnemonics, client).then((rows) => ({
+          cfg,
+          rows,
+        }))
+      )
+    );
+  } finally {
+    for (const { client } of clientsAndConfigs) {
+      client.close();
+    }
+  }
 
   // Merge all results into a single date-keyed map
   const mergedMap = new Map<string, CrossRow>();
