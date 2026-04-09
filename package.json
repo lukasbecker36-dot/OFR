@@ -1,0 +1,22 @@
+{
+  "name": "ofr-turso-pipeline",
+  "version": "1.0.0",
+  "description": "OFR Hedge Fund Monitor data pipeline → Turso database",
+  "type": "module",
+  "scripts": {
+    "ingest": "node --import tsx/esm src/ingest.ts",
+    "query": "node --import tsx/esm src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
