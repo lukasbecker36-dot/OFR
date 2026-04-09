@@ -13,7 +13,8 @@
  *   npm run export-csv -- --mnemonic FPF-ALLQHF_GAV_SUM
  */
 
-import { writeFileSync } from "fs";
+import { writeFileSync, mkdirSync } from "fs";
+import { join } from "path";
 import { Command } from "commander";
 import "dotenv/config";
 import { getClient } from "./db.js";
@@ -39,6 +40,8 @@ function toCsv(headers: string[], rows: unknown[][]): string {
 
 async function main() {
   const client = getClient();
+  const outDir = "data";
+  mkdirSync(outDir, { recursive: true });
 
   // ── metadata.csv ──────────────────────────────────────────────────────────
   const metaResult = await client.execute({
@@ -54,8 +57,8 @@ async function main() {
       r.mnemonic, r.dataset, r.category, r.description, r.frequency, r.last_updated,
     ])
   );
-  writeFileSync("metadata.csv", metaCsv);
-  console.log(`✓ metadata.csv — ${metaResult.rows.length} series`);
+  writeFileSync(join(outDir, "metadata.csv"), metaCsv);
+  console.log(`✓ data/metadata.csv — ${metaResult.rows.length} series`);
 
   // ── data.csv ──────────────────────────────────────────────────────────────
   let dataSql = "SELECT mnemonic, date, value FROM series_data";
@@ -82,8 +85,8 @@ async function main() {
     ["mnemonic", "date", "value"],
     dataResult.rows.map((r) => [r.mnemonic, r.date, r.value])
   );
-  writeFileSync("data.csv", dataCsv);
-  console.log(`✓ data.csv     — ${dataResult.rows.length} data points`);
+  writeFileSync(join(outDir, "data.csv"), dataCsv);
+  console.log(`✓ data/data.csv     — ${dataResult.rows.length} data points`);
 
   // ── combined.csv ──────────────────────────────────────────────────────────
   let combinedSql = `
@@ -108,8 +111,8 @@ async function main() {
       r.mnemonic, r.dataset, r.category, r.description, r.frequency, r.date, r.value,
     ])
   );
-  writeFileSync("combined.csv", combinedCsv);
-  console.log(`✓ combined.csv — ${combinedResult.rows.length} rows`);
+  writeFileSync(join(outDir, "combined.csv"), combinedCsv);
+  console.log(`✓ data/combined.csv — ${combinedResult.rows.length} rows`);
 }
 
 main().catch((err) => {

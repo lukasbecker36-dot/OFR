@@ -28,6 +28,8 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -69,13 +71,11 @@ jobs:
           [ -n "${{ inputs.since }}"   ] && ARGS="$ARGS --since ${{ inputs.since }}"
           npm run export-csv -- $ARGS
 
-      - name: Upload CSV files
+      - name: Commit CSV files to repo
         if: ${{ inputs.mode == 'export-csv' }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: ofr-export
-          path: |
-            metadata.csv
-            data.csv
-            combined.csv
-          retention-days: 7
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || git commit -m "Export CSV data [$(date -u +%Y-%m-%d)]"
+          git push
