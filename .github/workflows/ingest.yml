@@ -67,7 +67,7 @@ jobs:
 
       # ── Export CSV ──────────────────────────────────────────────────────────
       - name: Export CSV
-        if: ${{ inputs.mode == 'export-csv' }}
+        if: ${{ inputs.mode == 'export-csv' || inputs.mode == 'ingest' || github.event_name == 'schedule' }}
         env:
           TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
@@ -78,7 +78,7 @@ jobs:
           npm run export-csv -- $ARGS
 
       - name: Commit CSV files to repo
-        if: ${{ inputs.mode == 'export-csv' }}
+        if: ${{ inputs.mode == 'export-csv' || inputs.mode == 'ingest' || github.event_name == 'schedule' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
