@@ -1,498 +1,498 @@
 mnemonic,dataset,category,description,frequency,last_updated
-FICC-SPONSORED_REPO_VOL,ficc,Sponsored Repo,Sponsored repo: repo volume (U.S. dollars),Daily,2026-07-01
-FICC-SPONSORED_REVREPO_VOL,ficc,Sponsored Repo,Sponsored repo: reverse repo volume (U.S. dollars),Daily,2026-07-01
-FPF-ALLQHF_ALTERNATE_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: calculates alternative to VaR (count),Quarterly,2026-07-01
-FPF-ALLQHF_CANGATE_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets that may be subjected to material restrictions (gates) on investor withdrawals (percent),Quarterly,2026-07-01
-FPF-ALLQHF_CANSUSPEND_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets that may be subjected to suspensions (percent),Quarterly,2026-07-01
-FPF-ALLQHF_CDSDOWN250BPS_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 250 basis point decrease in credit spreads (percent),Quarterly,2026-07-01
-FPF-ALLQHF_CDSDOWN250BPS_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 250 basis point decrease in credit spreads (percent),Quarterly,2026-07-01
-FPF-ALLQHF_CDSUP250BPS_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 250 basis point increase in credit spreads (percent),Quarterly,2026-07-01
-FPF-ALLQHF_CDSUP250BPS_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 250 basis point increase in credit spreads (percent),Quarterly,2026-07-01
-FPF-ALLQHF_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-01
-FPF-ALLQHF_CREDIT_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Credit strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_CURRENCYDOWN20P_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 20 percent depreciation of the fund's base currency (percent),Quarterly,2026-07-01
-FPF-ALLQHF_CURRENCYDOWN20P_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 20 percent depreciation of the fund's base currency (percent),Quarterly,2026-07-01
-FPF-ALLQHF_CURRENCYUP20P_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 20 percent appreciation of the fund's base currency (percent),Quarterly,2026-07-01
-FPF-ALLQHF_CURRENCYUP20P_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 20 percent appreciation of the fund's base currency (percent),Quarterly,2026-07-01
-FPF-ALLQHF_CURRENTLYGATES_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets with withdrawal restrictions (gates) imposed (percent),Quarterly,2026-07-01
-FPF-ALLQHF_CURRENTLYSUSPENSIONS_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets with suspensions imposed (percent),Quarterly,2026-07-01
-FPF-ALLQHF_EQDOWN20P_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 20 percent decrease in equity prices (percent),Quarterly,2026-07-01
-FPF-ALLQHF_EQDOWN20P_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 20 percent decrease in equity prices (percent),Quarterly,2026-07-01
-FPF-ALLQHF_EQUITY_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Equity strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_EQUP20P_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 20 percent increase in equity prices (percent),Quarterly,2026-07-01
-FPF-ALLQHF_EQUP20P_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 20 percent increase in equity prices (percent),Quarterly,2026-07-01
-FPF-ALLQHF_EVENT_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Event strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_FINANCINGLIQUIDITYLE7_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: weekly financing liquidity (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_FINANCINGLIQUIDTYGT1LE7_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 2-7 days maturity (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_FINANCINGLIQUIDTYGT1LE7_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 2-7 days maturity (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_FINANCINGLIQUIDTYGT7LE90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 8-90 days maturity (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_FINANCINGLIQUIDTYGT7LE90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 8-90 days maturity (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_FINANCINGLIQUIDTYGT90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 90+ days maturity (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_FINANCINGLIQUIDTYGT90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 90+ days maturity (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_FINANCINGLIQUIDTYLE1_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 0-1 day maturity (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_FINANCINGLIQUIDTYLE1_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 0-1 day maturity (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_FUTURES_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Managed futures strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN10_BORROWING_PERCENT,fpf,Form PF Statistics,Top 10 largest funds: share of borrowing (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN10_CASHRATIO_AVERAGE,fpf,Form PF Statistics,Top 10 largest funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN10_COUNT_AVERAGE,fpf,Form PF Statistics,Top 10 largest funds: number of creditors (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN10_DERVOLOTC_AVERAGE,fpf,Form PF Statistics,Top 10 largest funds: derivative volume traded over the counter (percent),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN10_GAV_SHARE,fpf,Form PF Statistics,Top 10 largest funds: share of gross assets (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN10_LEVERAGERATIO_AVERAGE,fpf,Form PF Statistics,Top 10 largest funds: leverage (equal-weighted average ratio),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN10_OPENPOSITIONS_SUM,fpf,Form PF Statistics,Top 10 largest funds: share of open positions (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN10_SHARE_AVERAGE,fpf,Form PF Statistics,Top 10 largest funds: creditor concentration (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN11TO50_CASHRATIO_AVERAGE,fpf,Form PF Statistics,Top 11-50 largest funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN11TO50_COUNT_AVERAGE,fpf,Form PF Statistics,Top 11-50 largest funds: number of creditors (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN11TO50_DERVOLOTC_AVERAGE,fpf,Form PF Statistics,Top 11-50 largest funds: derivative volume traded over the counter (percent),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN11TO50_LEVERAGERATIO_AVERAGE,fpf,Form PF Statistics,Top 11-50 largest funds: leverage (equal-weighted average ratio),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN11TO50_SHARE_AVERAGE,fpf,Form PF Statistics,Top 11-50 largest funds: creditor concentration (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN51_CASHRATIO_AVERAGE,fpf,Form PF Statistics,Top 51+ largest funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN51_COUNT_AVERAGE,fpf,Form PF Statistics,Top 51+ largest funds: number of creditors (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN51_DERVOLOTC_AVERAGE,fpf,Form PF Statistics,Top 51+ largest funds: derivative volume traded over the counter (percent),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN51_LEVERAGERATIO_AVERAGE,fpf,Form PF Statistics,Top 51+ largest funds: leverage (equal-weighted average ratio),Quarterly,2026-07-01
-FPF-ALLQHF_GAVN51_SHARE_AVERAGE,fpf,Form PF Statistics,Top 51+ largest funds: creditor concentration (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_GAV_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross assets (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_INVESTORLIQUIDITYGT7LE90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 8-90 days (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_INVESTORLIQUIDITYGT7LE90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 8-90 days (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_INVESTORLIQUIDITYGT90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 91+ days (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_INVESTORLIQUIDITYGT90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 91+ days (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_INVESTORLIQUIDITYLE7_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 0-7 days (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_INVESTORLIQUIDITYLE7_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 0-7 days (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_L3ASSETS_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: level 3 assets as a share of gross assets (percent),Yearly,2026-07-01
-FPF-ALLQHF_MACRO_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Macro strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_MULTI_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Multi strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_N10_GNE_PERCENT,fpf,Form PF Statistics,Top 10 largest funds: share of gross notional exposure (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_NAV_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_NONGSIB_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: borrowing from non-G-SIBs and nonbanks (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_NONUSGSIB_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: borrowing from foreign G-SIBs (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_NO_COUNTNA,fpf,Form PF Statistics,Qualifying Hedge Funds: no risk metric reported (count),Quarterly,2026-07-01
-FPF-ALLQHF_NR_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: funds that report no stress tests and none as relevant (count),Quarterly,2026-07-01
-FPF-ALLQHF_OTHER_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Other strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_PARTY10_SUM,fpf,Form PF Statistics,Tenth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PARTY1_SUM,fpf,Form PF Statistics,First largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PARTY2_SUM,fpf,Form PF Statistics,Second largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PARTY3_SUM,fpf,Form PF Statistics,Third largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PARTY4_SUM,fpf,Form PF Statistics,Fourth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PARTY5_SUM,fpf,Form PF Statistics,Fifth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PARTY6_SUM,fpf,Form PF Statistics,Sixth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PARTY7_SUM,fpf,Form PF Statistics,Seventh largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PARTY8_SUM,fpf,Form PF Statistics,Eighth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PARTY9_SUM,fpf,Form PF Statistics,Ninth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PORTFOLIOLIQUIDITYGT1LE7_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 2-7 days (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_PORTFOLIOLIQUIDITYGT1LE7_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 2-7 days (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PORTFOLIOLIQUIDITYGT7LE90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 8-90 days (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_PORTFOLIOLIQUIDITYGT7LE90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 8-90 days (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PORTFOLIOLIQUIDITYGT90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 91+ days (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_PORTFOLIOLIQUIDITYGT90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 91+ days (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PORTFOLIOLIQUIDITYLE1_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 0-1 day (percent of total),Quarterly,2026-07-01
-FPF-ALLQHF_PORTFOLIOLIQUIDITYLE1_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 0-1 day (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_PORTFOLIOLIQUIDITYLE7_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: weekly portfolio liquidity (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_RFDOWN75BPS_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 75 basis point decrease in risk free rates (percent),Quarterly,2026-07-01
-FPF-ALLQHF_RFDOWN75BPS_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 75 basis point decrease in risk free rates (percent),Quarterly,2026-07-01
-FPF-ALLQHF_RFUP75BPS_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 75 basis point increase in risk free rates (percent),Quarterly,2026-07-01
-FPF-ALLQHF_RFUP75BPS_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 75 basis point increase in risk free rates (percent),Quarterly,2026-07-01
-FPF-ALLQHF_RNT_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: funds that report no stress tests and at least one relevant (count),Quarterly,2026-07-01
-FPF-ALLQHF_RT_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: funds that report at least one stress test (count),Quarterly,2026-07-01
-FPF-ALLQHF_RV_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Relative value strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-01
-FPF-ALLQHF_SIDEPOCKET_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets subject to side-pockets (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_USGSIB_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: borrowing from U.S. G-SIBs (U.S. dollars),Quarterly,2026-07-01
-FPF-ALLQHF_YES_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: calculates VaR (count),Quarterly,2026-07-01
-FPF-ASSETCLASS_CREDIT_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to credit cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_CREDIT_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to credit (percent change year-over-year),Quarterly,2026-07-01
-FPF-ASSETCLASS_CREDIT_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to credit (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_CREDIT_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to credit (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_CREDIT_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to credit (percent of total),Quarterly,2026-07-01
-FPF-ASSETCLASS_CREDIT_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to credit (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_EQUITIES_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to equity cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_EQUITIES_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to equity (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_EQUITIES_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to equity (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_EQUITIES_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to equity (percent of total),Quarterly,2026-07-01
-FPF-ASSETCLASS_EQUITIES_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to equity (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_EQUITY_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to equity (percent change year-over-year),Quarterly,2026-07-01
-FPF-ASSETCLASS_FX_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to FX cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_FX_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to FX (percent change year-over-year),Quarterly,2026-07-01
-FPF-ASSETCLASS_FX_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to FX (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_FX_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to FX (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_FX_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to FX (percent of total),Quarterly,2026-07-01
-FPF-ASSETCLASS_FX_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to FX (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_IRD_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to interest rate derivatives cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_IRD_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to interest rate derivatives (percent change year-over-year),Quarterly,2026-07-01
-FPF-ASSETCLASS_IRD_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to interest rate derivatives (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_IRD_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to interest rate derivatives (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_IRD_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to interest rate derivatives (percent of total),Quarterly,2026-07-01
-FPF-ASSETCLASS_IRD_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to interest rate derivative (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_LEQYDERIV_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long equity derivative exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_LEQYSEC_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long equity security exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_LTREASURY_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long U.S. Treasury exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_OTHER_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to other asset class cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_OTHER_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to other asset class (percent change year-over-year),Quarterly,2026-07-01
-FPF-ASSETCLASS_OTHER_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to other asset class (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_OTHER_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to other asset class (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_OTHER_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to other asset class (percent of total),Quarterly,2026-07-01
-FPF-ASSETCLASS_OTHER_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to other asset class (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_REPO_REPO_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: repo exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_REPO_REVERSEREPO_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: reverse repo exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_SEQYDERIV_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short equity derivative exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_SEQYSEC_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short equity security exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_SOVEREIGN_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to sovereign debt cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_SOVEREIGN_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to sovereign debt (percent change year-over-year),Quarterly,2026-07-01
-FPF-ASSETCLASS_SOVEREIGN_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to sovereign debt (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_SOVEREIGN_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to sovereign debt (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_SOVEREIGN_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to sovereign debt (percent of total),Quarterly,2026-07-01
-FPF-ASSETCLASS_SOVEREIGN_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to sovereign debt (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_STREASURY_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short U.S. Treasury exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_USGOV_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to U.S. government debt cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_USGOV_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to U.S. government debt (percent change year-over-year),Quarterly,2026-07-01
-FPF-ASSETCLASS_USGOV_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to U.S. government debt (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_USGOV_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to U.S. government debt (U.S. dollars),Quarterly,2026-07-01
-FPF-ASSETCLASS_USGOV_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to U.S. government debt (percent of total),Quarterly,2026-07-01
-FPF-ASSETCLASS_USGOV_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to U.S. government debt (U.S. dollars),Quarterly,2026-07-01
-FPF-BORROW_OTHERSECURED_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: other secured borrowing (percent change year-over-year),Quarterly,2026-07-01
-FPF-BORROW_OTHERSECURED_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: other secured borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-BORROW_PRIMEBROKER_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: prime brokerage borrowing (percent change year-over-year),Quarterly,2026-07-01
-FPF-BORROW_PRIMEBROKER_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: prime brokerage borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-BORROW_REPO_GAVN10_PERCENT,fpf,Form PF Statistics,Top 10 largest funds: share of repo borrowing (percent of total),Quarterly,2026-07-01
-FPF-BORROW_REPO_GAVN10_SUM,fpf,Form PF Statistics,Top 10 largest funds: repo borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-BORROW_REPO_GAVN11TO50_PERCENT,fpf,Form PF Statistics,Top 11-50 largest funds: share of repo borrowing (percent of total),Quarterly,2026-07-01
-FPF-BORROW_REPO_GAVN51_PERCENT,fpf,Form PF Statistics,Top 51+ largest funds: share of repo borrowing (percent of total),Quarterly,2026-07-01
-FPF-BORROW_REPO_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: repo borrowing (percent change year-over-year),Quarterly,2026-07-01
-FPF-BORROW_REPO_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: repo borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-COLLATERALTYPE_CASH_COLLATERAL_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: cash collateral posted (U.S. dollars),Quarterly,2026-07-01
-FPF-COLLATERALTYPE_OTHER_COLLATERAL_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: other collateral posted (U.S. dollars),Quarterly,2026-07-01
-FPF-COLLATERALTYPE_SECURITIES_COLLATERAL_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: securities collateral posted (U.S. dollars),Quarterly,2026-07-01
-FPF-GAVN10_OCRATEALL_PERCENT,fpf,Form PF Statistics,Top 10 largest funds: over-collateralization rate (percent),Quarterly,2026-07-01
-FPF-GAVN10_OCRATEEXOTHER_PERCENT,fpf,Form PF Statistics,Top 10 largest funds: over-collateralization rate excluding other collateral (percent),Quarterly,2026-07-01
-FPF-GAVN11TO50_OCRATEALL_PERCENT,fpf,Form PF Statistics,Top 11-50 largest funds: over-collateralization rate (percent),Quarterly,2026-07-01
-FPF-GAVN11TO50_OCRATEEXOTHER_PERCENT,fpf,Form PF Statistics,Top 11-50 largest funds: over-collateralization rate excluding other collateral (percent),Quarterly,2026-07-01
-FPF-GAVN51_OCRATEALL_PERCENT,fpf,Form PF Statistics,Top 51+ largest funds: over-collateralization rate (percent),Quarterly,2026-07-01
-FPF-GAVN51_OCRATEEXOTHER_PERCENT,fpf,Form PF Statistics,Top 51+ largest funds: over-collateralization rate excluding other collateral (percent),Quarterly,2026-07-01
-FPF-INVESTOMUNI_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by state and municipal governments (percent of total),Quarterly,2026-07-01
-FPF-INVESTORFI_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by financial institutions (percent of total),Quarterly,2026-07-01
-FPF-INVESTORNONPROF_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by nonprofit organizations (percent of total) ,Quarterly,2026-07-01
-FPF-INVESTORNONUS_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by non-U.S. entities (percent of total),Quarterly,2026-07-01
-FPF-INVESTOROTHER_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by other entities (percent of total),Quarterly,2026-07-01
-FPF-INVESTORPENSION_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by pensions (percent of total),Quarterly,2026-07-01
-FPF-INVESTORPRIVFUND_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by private funds (percent of total),Quarterly,2026-07-01
-FPF-INVESTORUSINDV_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by U.S. individuals (percent of total),Quarterly,2026-07-01
-FPF-OCRATEALL_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: over-collateralization rate for all collateral types (percent),Quarterly,2026-07-01
-FPF-OCRATECASHSEC_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: over-collateralization rate for cash and securities collateral (percent),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Credit strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_BORROWING_SUM,fpf,Form PF Statistics,Credit strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_COUNT,fpf,Form PF Statistics,Credit strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_GAV_PCTCHANGE,fpf,Form PF Statistics,Credit strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_GAV_SUM,fpf,Form PF Statistics,Credit strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_GNE_CHANGE,fpf,Form PF Statistics,Credit strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_GNE_PCTCHANGE,fpf,Form PF Statistics,Credit strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_GNE_SUM,fpf,Form PF Statistics,Credit strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_NAV_PCTCHANGE,fpf,Form PF Statistics,Credit strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_NAV_SUM,fpf,Form PF Statistics,Credit strategy funds: net assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_CREDIT_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Equity strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_BORROWING_SUM,fpf,Form PF Statistics,Equity strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_COUNT,fpf,Form PF Statistics,Equity strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_GAV_PCTCHANGE,fpf,Form PF Statistics,Equity strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_GAV_SUM,fpf,Form PF Statistics,Equity strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_GNE_CHANGE,fpf,Form PF Statistics,Equity strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_GNE_PCTCHANGE,fpf,Form PF Statistics,Equity strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_GNE_SUM,fpf,Form PF Statistics,Equity strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_NAV_PCTCHANGE,fpf,Form PF Statistics,Equity strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_NAV_SUM,fpf,Form PF Statistics,Equity strategy funds: net assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_EQUITY_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Event strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_BORROWING_SUM,fpf,Form PF Statistics,Event strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Event strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Event strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_COUNT,fpf,Form PF Statistics,Event strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_GAV_PCTCHANGE,fpf,Form PF Statistics,Event strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_GAV_SUM,fpf,Form PF Statistics,Event strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_GNE_CHANGE,fpf,Form PF Statistics,Event strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_GNE_PCTCHANGE,fpf,Form PF Statistics,Event strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_GNE_SUM,fpf,Form PF Statistics,Event strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Event strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Event strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Event strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Event strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_NAV_PCTCHANGE,fpf,Form PF Statistics,Event strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_NAV_SUM,fpf,Form PF Statistics,Event strategy funds: net assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Event strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_EVENT_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Event strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Fund of funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Fund of funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_COUNT,fpf,Form PF Statistics,Fund of funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_GAV_PCTCHANGE,fpf,Form PF Statistics,Fund of funds: gross assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_GAV_SUM,fpf,Form PF Statistics,Fund of funds: gross assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_GNE_CHANGE,fpf,Form PF Statistics,Fund of funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_GNE_PCTCHANGE,fpf,Form PF Statistics,Fund of funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_GNE_SUM,fpf,Form PF Statistics,Fund of funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Fund of funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Fund of funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_NAV_PCTCHANGE,fpf,Form PF Statistics,Fund of funds: net assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_FOF_NAV_SUM,fpf,Form PF Statistics,Fund of funds: net assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_COUNT,fpf,Form PF Statistics,Managed futures strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_GAV_PCTCHANGE,fpf,Form PF Statistics,Managed futures strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_GAV_SUM,fpf,Form PF Statistics,Managed futures strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_GNE_CHANGE,fpf,Form PF Statistics,Managed futures strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_GNE_PCTCHANGE,fpf,Form PF Statistics,Managed futures strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_GNE_SUM,fpf,Form PF Statistics,Managed futures strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_NAV_PCTCHANGE,fpf,Form PF Statistics,Managed futures strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_NAV_SUM,fpf,Form PF Statistics,Managed futures strategy funds: net assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_FUTURES_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Macro strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_BORROWING_SUM,fpf,Form PF Statistics,Macro strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_COUNT,fpf,Form PF Statistics,Macro strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_GAV_PCTCHANGE,fpf,Form PF Statistics,Macro strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_GAV_SUM,fpf,Form PF Statistics,Macro strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_GNE_CHANGE,fpf,Form PF Statistics,Macro strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_GNE_PCTCHANGE,fpf,Form PF Statistics,Macro strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_GNE_SUM,fpf,Form PF Statistics,Macro strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_NAV_PCTCHANGE,fpf,Form PF Statistics,Macro strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_NAV_SUM,fpf,Form PF Statistics,Macro strategy funds: net assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_MACRO_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Multi strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_BORROWING_SUM,fpf,Form PF Statistics,Multi strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_COUNT,fpf,Form PF Statistics,Multi strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_GAV_PCTCHANGE,fpf,Form PF Statistics,Multi strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_GAV_SUM,fpf,Form PF Statistics,Multi strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_GNE_CHANGE,fpf,Form PF Statistics,Multi strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_GNE_PCTCHANGE,fpf,Form PF Statistics,Multi strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_GNE_SUM,fpf,Form PF Statistics,Multi strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_NAV_PCTCHANGE,fpf,Form PF Statistics,Multi strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_NAV_SUM,fpf,Form PF Statistics,Multi strategy funds: net assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_MULTI_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Other strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_BORROWING_SUM,fpf,Form PF Statistics,Other strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Other strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Other strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_COUNT,fpf,Form PF Statistics,Other strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_GAV_PCTCHANGE,fpf,Form PF Statistics,Other strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_GAV_SUM,fpf,Form PF Statistics,Other strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_GNE_CHANGE,fpf,Form PF Statistics,Other strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_GNE_PCTCHANGE,fpf,Form PF Statistics,Other strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_GNE_SUM,fpf,Form PF Statistics,Other strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Other strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Other strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Other strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Other strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_NAV_PCTCHANGE,fpf,Form PF Statistics,Other strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_NAV_SUM,fpf,Form PF Statistics,Other strategy funds: net assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Other strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_OTHER_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Other strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_RV_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Relative value strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_RV_BORROWING_SUM,fpf,Form PF Statistics,Relative value strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_RV_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-01
-FPF-STRATEGY_RV_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-01
-FPF-STRATEGY_RV_COUNT,fpf,Form PF Statistics,Relative value funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-01
-FPF-STRATEGY_RV_GAV_PCTCHANGE,fpf,Form PF Statistics,Relative value strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_RV_GAV_SUM,fpf,Form PF Statistics,Relative value strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_RV_GNE_CHANGE,fpf,Form PF Statistics,Relative value strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_RV_GNE_PCTCHANGE,fpf,Form PF Statistics,Relative value strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_RV_GNE_SUM,fpf,Form PF Statistics,Relative value strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_RV_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_RV_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_RV_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_RV_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-01
-FPF-STRATEGY_RV_NAV_PCTCHANGE,fpf,Form PF Statistics,Relative value strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-01
-FPF-STRATEGY_RV_NAV_SUM,fpf,Form PF Statistics,Relative Value strategy funds: net assets (U.S. dollars),Quarterly,2026-07-01
-FPF-STRATEGY_RV_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Relative Value strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-01
-FPF-STRATEGY_RV_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Relative Value strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-01
-SCOOS-NET_BSCAPACITY,scoos,SCOOS,Survey: lender balance sheet capacity as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-01
-SCOOS-NET_COLLATTERMS,scoos,SCOOS,Survey: collateral terms as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-01
-SCOOS-NET_CPSTRENGTH,scoos,SCOOS,Survey: counterparty strength as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-01
-SCOOS-NET_HF_CREDITAVAILABILITY,scoos,SCOOS,Survey: availability of leverage offered to hedge funds (net percent of respondents reporting a change),Quarterly,2026-07-01
-SCOOS-NET_HF_CREDITPRICE,scoos,SCOOS,Survey: credit price terms offered to hedge funds (net percent of respondents reporting a change),Quarterly,2026-07-01
-SCOOS-NET_HF_CREDITTERMS,scoos,SCOOS,Survey: credit nonprice terms offered to hedge funds (net percent of respondents reporting a change),Quarterly,2026-07-01
-SCOOS-NET_HF_LEVERAGEUSE,scoos,SCOOS,Survey: use of leverage offered to hedge funds (net percent of respondents reporting a change),Quarterly,2026-07-01
-SCOOS-NET_HF_MOSTFAVORED,scoos,SCOOS,Survey: provision of differential terms offered to most-favored hedge funds (net percent of respondents reporting a change),Quarterly,2026-07-01
-SCOOS-NET_HF_NEGOTIATIONEFFORTS,scoos,SCOOS,Survey: hedge funds’ efforts to negotiate more favorable credit terms (net percent of respondents reporting a change),Quarterly,2026-07-01
-SCOOS-NET_INTERNALCHARGES,scoos,SCOOS,Survey: internal funding charges as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-01
-SCOOS-NET_LENDERCOMPET,scoos,SCOOS,Survey: lender competition as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-01
-SCOOS-NET_LENDERWILLINGNESS,scoos,SCOOS,Survey: lender willingness as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-01
-SCOOS-NET_LIQCONDITIONS,scoos,SCOOS,Survey: general liquidity conditions as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-01
-TFF-AI_TREAS_LONG_DV01,tff,CFTC Commitments of Traders,Asset managers: DV01 of long position in Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-AI_TREAS_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Asset managers: long 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-AI_TREAS_LONG_POSITION,tff,CFTC Commitments of Traders,Asset managers: long notional position in Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-AI_TREAS_SHORT_DV01,tff,CFTC Commitments of Traders,Asset managers: DV01 of short position in Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-AI_TREAS_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Asset managers: short 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-AI_TREAS_SHORT_POSITION,tff,CFTC Commitments of Traders,Asset managers: short notional position in Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-DI_TREAS_LONG_DV01,tff,CFTC Commitments of Traders,Dealers: DV01 of long position in Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-DI_TREAS_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Dealers: long 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-DI_TREAS_LONG_POSITION,tff,CFTC Commitments of Traders,Dealers: long notional position in Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-DI_TREAS_SHORT_DV01,tff,CFTC Commitments of Traders,Dealers: DV01 of short position in Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-DI_TREAS_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Dealers: short 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-DI_TREAS_SHORT_POSITION,tff,CFTC Commitments of Traders,Dealers: short notional position in Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_AD_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Australian dollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_AD_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Australian dollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_AD_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Australian dollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_BITCOIN_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Bitcoin futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_BITCOIN_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Bitcoin futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_BITCOIN_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Bitcoin futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_BP_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in British pound futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_BP_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in British pound futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_BP_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in British pound futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_BR_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Brazilian real futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_BR_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Brazilian real futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_BR_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Brazilian real futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_CD_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Canadian dollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_CD_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Canadian dollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_CD_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Canadian dollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_DJ_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in DJIA Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_DJ_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in DJIA Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_DJ_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in DJIA Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_DX_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Dollar index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_DX_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in U.S. Dollar Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_DX_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Dollar index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_EC_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Euro futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_EC_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Euro futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_EC_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Euro futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ED_LONG_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of long position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ED_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in eurodollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ED_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ED_NET_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of net position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ED_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ED_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ED_SHORT_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of short position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ED_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ED_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ETHER_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Ether futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ETHER_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Ether futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ETHER_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Ether futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FF_LONG_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of long position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FF_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FF_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FF_NET_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of net position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FF_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FF_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FF_SHORT_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of short position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FF_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FF_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FV_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FV_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FV_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FV_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FV_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_FV_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_JY_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Japanese yen futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_JY_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Japanese yen futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_JY_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Japanese yen futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ND_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in NASDAQ 100 Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ND_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in NASDAQ 100 Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_ND_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in NASDAQ 100 Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_NV_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in New Zealand dollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_NV_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in New Zealand dollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_NV_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in New Zealand dollar futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_NX_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Nikkei 225 Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_NX_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Nikkei 225 Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_NX_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Nikkei 225 Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_PE_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Mexican peso futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_PE_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Mexican peso futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_PE_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Mexican peso futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_RA_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in South African rand futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_RA_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in South African rand futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_RA_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in South African rand futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SER_LONG_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of long position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SER_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SER_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SER_NET_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of net position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SER_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SER_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SER_SHORT_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of short position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SER_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SER_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SFR_LONG_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of long position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SFR_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SFR_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 3-month SOFR future (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SFR_NET_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of net position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SFR_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SFR_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 3-month SOFR future (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SFR_SHORT_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of short position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SFR_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SFR_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 3-month SOFR future (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SF_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Swiss franc futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SF_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Swiss franc futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SF_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Swiss franc futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SP_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in S&P 500 Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SP_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in S&P 500 Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_SP_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in S&P 500 Index futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TREAS_LONG_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of long position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TREAS_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TREAS_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TREAS_NET_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of net position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TREAS_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TREAS_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TREAS_SHORT_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of short position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TREAS_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TREAS_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TU_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TU_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TU_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TU_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TU_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TU_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TY_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TY_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TY_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TY_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TY_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_TY_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_US_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_US_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_US_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_US_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_US_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_US_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_UXY_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_UXY_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_UXY_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_UXY_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_UXY_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_UXY_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_VIX_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in VIX Index (U.S. dollars),Weekly,2026-07-01
-TFF-LF_VIX_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in VIX Index (U.S. dollars),Weekly,2026-07-01
-TFF-LF_VIX_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in VIX Index (U.S. dollars),Weekly,2026-07-01
-TFF-LF_WN_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_WN_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_WN_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_WN_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_WN_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-LF_WN_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-OR_TREAS_LONG_DV01,tff,CFTC Commitments of Traders,Other traders: DV01 of long position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-OR_TREAS_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Other traders: long 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-OR_TREAS_LONG_POSITION,tff,CFTC Commitments of Traders,Other traders: long notional position in Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-OR_TREAS_SHORT_DV01,tff,CFTC Commitments of Traders,Other traders: DV01 of short position in Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-OR_TREAS_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Other traders: short 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-01
-TFF-OR_TREAS_SHORT_POSITION,tff,CFTC Commitments of Traders,Other traders: short notional position in Treasury futures (U.S. dollars),Weekly,2026-07-01
+FICC-SPONSORED_REPO_VOL,ficc,Sponsored Repo,Sponsored repo: repo volume (U.S. dollars),Daily,2026-07-02
+FICC-SPONSORED_REVREPO_VOL,ficc,Sponsored Repo,Sponsored repo: reverse repo volume (U.S. dollars),Daily,2026-07-02
+FPF-ALLQHF_ALTERNATE_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: calculates alternative to VaR (count),Quarterly,2026-07-02
+FPF-ALLQHF_CANGATE_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets that may be subjected to material restrictions (gates) on investor withdrawals (percent),Quarterly,2026-07-02
+FPF-ALLQHF_CANSUSPEND_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets that may be subjected to suspensions (percent),Quarterly,2026-07-02
+FPF-ALLQHF_CDSDOWN250BPS_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 250 basis point decrease in credit spreads (percent),Quarterly,2026-07-02
+FPF-ALLQHF_CDSDOWN250BPS_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 250 basis point decrease in credit spreads (percent),Quarterly,2026-07-02
+FPF-ALLQHF_CDSUP250BPS_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 250 basis point increase in credit spreads (percent),Quarterly,2026-07-02
+FPF-ALLQHF_CDSUP250BPS_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 250 basis point increase in credit spreads (percent),Quarterly,2026-07-02
+FPF-ALLQHF_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-02
+FPF-ALLQHF_CREDIT_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Credit strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_CURRENCYDOWN20P_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 20 percent depreciation of the fund's base currency (percent),Quarterly,2026-07-02
+FPF-ALLQHF_CURRENCYDOWN20P_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 20 percent depreciation of the fund's base currency (percent),Quarterly,2026-07-02
+FPF-ALLQHF_CURRENCYUP20P_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 20 percent appreciation of the fund's base currency (percent),Quarterly,2026-07-02
+FPF-ALLQHF_CURRENCYUP20P_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 20 percent appreciation of the fund's base currency (percent),Quarterly,2026-07-02
+FPF-ALLQHF_CURRENTLYGATES_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets with withdrawal restrictions (gates) imposed (percent),Quarterly,2026-07-02
+FPF-ALLQHF_CURRENTLYSUSPENSIONS_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets with suspensions imposed (percent),Quarterly,2026-07-02
+FPF-ALLQHF_EQDOWN20P_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 20 percent decrease in equity prices (percent),Quarterly,2026-07-02
+FPF-ALLQHF_EQDOWN20P_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 20 percent decrease in equity prices (percent),Quarterly,2026-07-02
+FPF-ALLQHF_EQUITY_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Equity strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_EQUP20P_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 20 percent increase in equity prices (percent),Quarterly,2026-07-02
+FPF-ALLQHF_EQUP20P_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 20 percent increase in equity prices (percent),Quarterly,2026-07-02
+FPF-ALLQHF_EVENT_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Event strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_FINANCINGLIQUIDITYLE7_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: weekly financing liquidity (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_FINANCINGLIQUIDTYGT1LE7_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 2-7 days maturity (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_FINANCINGLIQUIDTYGT1LE7_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 2-7 days maturity (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_FINANCINGLIQUIDTYGT7LE90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 8-90 days maturity (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_FINANCINGLIQUIDTYGT7LE90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 8-90 days maturity (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_FINANCINGLIQUIDTYGT90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 90+ days maturity (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_FINANCINGLIQUIDTYGT90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 90+ days maturity (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_FINANCINGLIQUIDTYLE1_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 0-1 day maturity (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_FINANCINGLIQUIDTYLE1_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: financing with 0-1 day maturity (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_FUTURES_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Managed futures strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN10_BORROWING_PERCENT,fpf,Form PF Statistics,Top 10 largest funds: share of borrowing (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN10_CASHRATIO_AVERAGE,fpf,Form PF Statistics,Top 10 largest funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN10_COUNT_AVERAGE,fpf,Form PF Statistics,Top 10 largest funds: number of creditors (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN10_DERVOLOTC_AVERAGE,fpf,Form PF Statistics,Top 10 largest funds: derivative volume traded over the counter (percent),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN10_GAV_SHARE,fpf,Form PF Statistics,Top 10 largest funds: share of gross assets (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN10_LEVERAGERATIO_AVERAGE,fpf,Form PF Statistics,Top 10 largest funds: leverage (equal-weighted average ratio),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN10_OPENPOSITIONS_SUM,fpf,Form PF Statistics,Top 10 largest funds: share of open positions (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN10_SHARE_AVERAGE,fpf,Form PF Statistics,Top 10 largest funds: creditor concentration (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN11TO50_CASHRATIO_AVERAGE,fpf,Form PF Statistics,Top 11-50 largest funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN11TO50_COUNT_AVERAGE,fpf,Form PF Statistics,Top 11-50 largest funds: number of creditors (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN11TO50_DERVOLOTC_AVERAGE,fpf,Form PF Statistics,Top 11-50 largest funds: derivative volume traded over the counter (percent),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN11TO50_LEVERAGERATIO_AVERAGE,fpf,Form PF Statistics,Top 11-50 largest funds: leverage (equal-weighted average ratio),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN11TO50_SHARE_AVERAGE,fpf,Form PF Statistics,Top 11-50 largest funds: creditor concentration (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN51_CASHRATIO_AVERAGE,fpf,Form PF Statistics,Top 51+ largest funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN51_COUNT_AVERAGE,fpf,Form PF Statistics,Top 51+ largest funds: number of creditors (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN51_DERVOLOTC_AVERAGE,fpf,Form PF Statistics,Top 51+ largest funds: derivative volume traded over the counter (percent),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN51_LEVERAGERATIO_AVERAGE,fpf,Form PF Statistics,Top 51+ largest funds: leverage (equal-weighted average ratio),Quarterly,2026-07-02
+FPF-ALLQHF_GAVN51_SHARE_AVERAGE,fpf,Form PF Statistics,Top 51+ largest funds: creditor concentration (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_GAV_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross assets (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_INVESTORLIQUIDITYGT7LE90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 8-90 days (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_INVESTORLIQUIDITYGT7LE90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 8-90 days (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_INVESTORLIQUIDITYGT90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 91+ days (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_INVESTORLIQUIDITYGT90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 91+ days (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_INVESTORLIQUIDITYLE7_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 0-7 days (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_INVESTORLIQUIDITYLE7_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: investor liquidity 0-7 days (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_L3ASSETS_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: level 3 assets as a share of gross assets (percent),Yearly,2026-07-02
+FPF-ALLQHF_MACRO_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Macro strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_MULTI_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Multi strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_N10_GNE_PERCENT,fpf,Form PF Statistics,Top 10 largest funds: share of gross notional exposure (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_NAV_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_NONGSIB_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: borrowing from non-G-SIBs and nonbanks (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_NONUSGSIB_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: borrowing from foreign G-SIBs (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_NO_COUNTNA,fpf,Form PF Statistics,Qualifying Hedge Funds: no risk metric reported (count),Quarterly,2026-07-02
+FPF-ALLQHF_NR_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: funds that report no stress tests and none as relevant (count),Quarterly,2026-07-02
+FPF-ALLQHF_OTHER_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Other strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_PARTY10_SUM,fpf,Form PF Statistics,Tenth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PARTY1_SUM,fpf,Form PF Statistics,First largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PARTY2_SUM,fpf,Form PF Statistics,Second largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PARTY3_SUM,fpf,Form PF Statistics,Third largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PARTY4_SUM,fpf,Form PF Statistics,Fourth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PARTY5_SUM,fpf,Form PF Statistics,Fifth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PARTY6_SUM,fpf,Form PF Statistics,Sixth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PARTY7_SUM,fpf,Form PF Statistics,Seventh largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PARTY8_SUM,fpf,Form PF Statistics,Eighth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PARTY9_SUM,fpf,Form PF Statistics,Ninth largest counterparty: lending to all Qualifying Hedge Funds (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PORTFOLIOLIQUIDITYGT1LE7_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 2-7 days (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_PORTFOLIOLIQUIDITYGT1LE7_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 2-7 days (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PORTFOLIOLIQUIDITYGT7LE90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 8-90 days (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_PORTFOLIOLIQUIDITYGT7LE90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 8-90 days (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PORTFOLIOLIQUIDITYGT90_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 91+ days (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_PORTFOLIOLIQUIDITYGT90_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 91+ days (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PORTFOLIOLIQUIDITYLE1_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 0-1 day (percent of total),Quarterly,2026-07-02
+FPF-ALLQHF_PORTFOLIOLIQUIDITYLE1_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: portfolio liquidity 0-1 day (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_PORTFOLIOLIQUIDITYLE7_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: weekly portfolio liquidity (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_RFDOWN75BPS_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 75 basis point decrease in risk free rates (percent),Quarterly,2026-07-02
+FPF-ALLQHF_RFDOWN75BPS_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 75 basis point decrease in risk free rates (percent),Quarterly,2026-07-02
+FPF-ALLQHF_RFUP75BPS_P5,fpf,Form PF Statistics,Stress test: effect on net assets (5th percentile) for a 75 basis point increase in risk free rates (percent),Quarterly,2026-07-02
+FPF-ALLQHF_RFUP75BPS_P50,fpf,Form PF Statistics,Stress test: effect on net assets (50th percentile) for a 75 basis point increase in risk free rates (percent),Quarterly,2026-07-02
+FPF-ALLQHF_RNT_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: funds that report no stress tests and at least one relevant (count),Quarterly,2026-07-02
+FPF-ALLQHF_RT_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: funds that report at least one stress test (count),Quarterly,2026-07-02
+FPF-ALLQHF_RV_OPENPOSITIONS_AVERAGE,fpf,Form PF Statistics,Relative value strategy funds: open positions (equal-weighted average count),Quarterly,2026-07-02
+FPF-ALLQHF_SIDEPOCKET_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets subject to side-pockets (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_USGSIB_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: borrowing from U.S. G-SIBs (U.S. dollars),Quarterly,2026-07-02
+FPF-ALLQHF_YES_COUNT,fpf,Form PF Statistics,Qualifying Hedge Funds: calculates VaR (count),Quarterly,2026-07-02
+FPF-ASSETCLASS_CREDIT_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to credit cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_CREDIT_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to credit (percent change year-over-year),Quarterly,2026-07-02
+FPF-ASSETCLASS_CREDIT_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to credit (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_CREDIT_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to credit (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_CREDIT_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to credit (percent of total),Quarterly,2026-07-02
+FPF-ASSETCLASS_CREDIT_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to credit (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_EQUITIES_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to equity cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_EQUITIES_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to equity (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_EQUITIES_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to equity (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_EQUITIES_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to equity (percent of total),Quarterly,2026-07-02
+FPF-ASSETCLASS_EQUITIES_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to equity (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_EQUITY_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to equity (percent change year-over-year),Quarterly,2026-07-02
+FPF-ASSETCLASS_FX_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to FX cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_FX_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to FX (percent change year-over-year),Quarterly,2026-07-02
+FPF-ASSETCLASS_FX_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to FX (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_FX_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to FX (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_FX_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to FX (percent of total),Quarterly,2026-07-02
+FPF-ASSETCLASS_FX_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to FX (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_IRD_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to interest rate derivatives cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_IRD_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to interest rate derivatives (percent change year-over-year),Quarterly,2026-07-02
+FPF-ASSETCLASS_IRD_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to interest rate derivatives (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_IRD_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to interest rate derivatives (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_IRD_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to interest rate derivatives (percent of total),Quarterly,2026-07-02
+FPF-ASSETCLASS_IRD_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to interest rate derivative (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_LEQYDERIV_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long equity derivative exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_LEQYSEC_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long equity security exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_LTREASURY_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long U.S. Treasury exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_OTHER_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to other asset class cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_OTHER_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to other asset class (percent change year-over-year),Quarterly,2026-07-02
+FPF-ASSETCLASS_OTHER_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to other asset class (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_OTHER_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to other asset class (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_OTHER_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to other asset class (percent of total),Quarterly,2026-07-02
+FPF-ASSETCLASS_OTHER_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to other asset class (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_REPO_REPO_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: repo exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_REPO_REVERSEREPO_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: reverse repo exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_SEQYDERIV_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short equity derivative exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_SEQYSEC_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short equity security exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_SOVEREIGN_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to sovereign debt cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_SOVEREIGN_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to sovereign debt (percent change year-over-year),Quarterly,2026-07-02
+FPF-ASSETCLASS_SOVEREIGN_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to sovereign debt (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_SOVEREIGN_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to sovereign debt (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_SOVEREIGN_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to sovereign debt (percent of total),Quarterly,2026-07-02
+FPF-ASSETCLASS_SOVEREIGN_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to sovereign debt (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_STREASURY_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short U.S. Treasury exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_USGOV_GNE_CHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to U.S. government debt cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_USGOV_GNE_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to U.S. government debt (percent change year-over-year),Quarterly,2026-07-02
+FPF-ASSETCLASS_USGOV_GNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: gross notional exposure to U.S. government debt (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_USGOV_LGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: long notional exposure to U.S. government debt (U.S. dollars),Quarterly,2026-07-02
+FPF-ASSETCLASS_USGOV_N10_GNE_SUM,fpf,Form PF Statistics,Top 10 asset exposures: share of gross notional exposure to U.S. government debt (percent of total),Quarterly,2026-07-02
+FPF-ASSETCLASS_USGOV_SGNE_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: short notional exposure to U.S. government debt (U.S. dollars),Quarterly,2026-07-02
+FPF-BORROW_OTHERSECURED_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: other secured borrowing (percent change year-over-year),Quarterly,2026-07-02
+FPF-BORROW_OTHERSECURED_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: other secured borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-BORROW_PRIMEBROKER_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: prime brokerage borrowing (percent change year-over-year),Quarterly,2026-07-02
+FPF-BORROW_PRIMEBROKER_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: prime brokerage borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-BORROW_REPO_GAVN10_PERCENT,fpf,Form PF Statistics,Top 10 largest funds: share of repo borrowing (percent of total),Quarterly,2026-07-02
+FPF-BORROW_REPO_GAVN10_SUM,fpf,Form PF Statistics,Top 10 largest funds: repo borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-BORROW_REPO_GAVN11TO50_PERCENT,fpf,Form PF Statistics,Top 11-50 largest funds: share of repo borrowing (percent of total),Quarterly,2026-07-02
+FPF-BORROW_REPO_GAVN51_PERCENT,fpf,Form PF Statistics,Top 51+ largest funds: share of repo borrowing (percent of total),Quarterly,2026-07-02
+FPF-BORROW_REPO_PCTCHANGE,fpf,Form PF Statistics,Qualifying Hedge Funds: repo borrowing (percent change year-over-year),Quarterly,2026-07-02
+FPF-BORROW_REPO_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: repo borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-COLLATERALTYPE_CASH_COLLATERAL_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: cash collateral posted (U.S. dollars),Quarterly,2026-07-02
+FPF-COLLATERALTYPE_OTHER_COLLATERAL_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: other collateral posted (U.S. dollars),Quarterly,2026-07-02
+FPF-COLLATERALTYPE_SECURITIES_COLLATERAL_SUM,fpf,Form PF Statistics,Qualifying Hedge Funds: securities collateral posted (U.S. dollars),Quarterly,2026-07-02
+FPF-GAVN10_OCRATEALL_PERCENT,fpf,Form PF Statistics,Top 10 largest funds: over-collateralization rate (percent),Quarterly,2026-07-02
+FPF-GAVN10_OCRATEEXOTHER_PERCENT,fpf,Form PF Statistics,Top 10 largest funds: over-collateralization rate excluding other collateral (percent),Quarterly,2026-07-02
+FPF-GAVN11TO50_OCRATEALL_PERCENT,fpf,Form PF Statistics,Top 11-50 largest funds: over-collateralization rate (percent),Quarterly,2026-07-02
+FPF-GAVN11TO50_OCRATEEXOTHER_PERCENT,fpf,Form PF Statistics,Top 11-50 largest funds: over-collateralization rate excluding other collateral (percent),Quarterly,2026-07-02
+FPF-GAVN51_OCRATEALL_PERCENT,fpf,Form PF Statistics,Top 51+ largest funds: over-collateralization rate (percent),Quarterly,2026-07-02
+FPF-GAVN51_OCRATEEXOTHER_PERCENT,fpf,Form PF Statistics,Top 51+ largest funds: over-collateralization rate excluding other collateral (percent),Quarterly,2026-07-02
+FPF-INVESTOMUNI_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by state and municipal governments (percent of total),Quarterly,2026-07-02
+FPF-INVESTORFI_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by financial institutions (percent of total),Quarterly,2026-07-02
+FPF-INVESTORNONPROF_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by nonprofit organizations (percent of total) ,Quarterly,2026-07-02
+FPF-INVESTORNONUS_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by non-U.S. entities (percent of total),Quarterly,2026-07-02
+FPF-INVESTOROTHER_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by other entities (percent of total),Quarterly,2026-07-02
+FPF-INVESTORPENSION_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by pensions (percent of total),Quarterly,2026-07-02
+FPF-INVESTORPRIVFUND_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by private funds (percent of total),Quarterly,2026-07-02
+FPF-INVESTORUSINDV_NAVWMEAN,fpf,Form PF Statistics,Qualifying Hedge Funds: net assets held by U.S. individuals (percent of total),Quarterly,2026-07-02
+FPF-OCRATEALL_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: over-collateralization rate for all collateral types (percent),Quarterly,2026-07-02
+FPF-OCRATECASHSEC_PERCENT,fpf,Form PF Statistics,Qualifying Hedge Funds: over-collateralization rate for cash and securities collateral (percent),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Credit strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_BORROWING_SUM,fpf,Form PF Statistics,Credit strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_COUNT,fpf,Form PF Statistics,Credit strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_GAV_PCTCHANGE,fpf,Form PF Statistics,Credit strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_GAV_SUM,fpf,Form PF Statistics,Credit strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_GNE_CHANGE,fpf,Form PF Statistics,Credit strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_GNE_PCTCHANGE,fpf,Form PF Statistics,Credit strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_GNE_SUM,fpf,Form PF Statistics,Credit strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_NAV_PCTCHANGE,fpf,Form PF Statistics,Credit strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_NAV_SUM,fpf,Form PF Statistics,Credit strategy funds: net assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_CREDIT_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Credit strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Equity strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_BORROWING_SUM,fpf,Form PF Statistics,Equity strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_COUNT,fpf,Form PF Statistics,Equity strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_GAV_PCTCHANGE,fpf,Form PF Statistics,Equity strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_GAV_SUM,fpf,Form PF Statistics,Equity strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_GNE_CHANGE,fpf,Form PF Statistics,Equity strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_GNE_PCTCHANGE,fpf,Form PF Statistics,Equity strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_GNE_SUM,fpf,Form PF Statistics,Equity strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_NAV_PCTCHANGE,fpf,Form PF Statistics,Equity strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_NAV_SUM,fpf,Form PF Statistics,Equity strategy funds: net assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_EQUITY_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Equity strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Event strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_BORROWING_SUM,fpf,Form PF Statistics,Event strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Event strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Event strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_COUNT,fpf,Form PF Statistics,Event strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_GAV_PCTCHANGE,fpf,Form PF Statistics,Event strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_GAV_SUM,fpf,Form PF Statistics,Event strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_GNE_CHANGE,fpf,Form PF Statistics,Event strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_GNE_PCTCHANGE,fpf,Form PF Statistics,Event strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_GNE_SUM,fpf,Form PF Statistics,Event strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Event strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Event strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Event strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Event strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_NAV_PCTCHANGE,fpf,Form PF Statistics,Event strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_NAV_SUM,fpf,Form PF Statistics,Event strategy funds: net assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Event strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_EVENT_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Event strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Fund of funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Fund of funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_COUNT,fpf,Form PF Statistics,Fund of funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_GAV_PCTCHANGE,fpf,Form PF Statistics,Fund of funds: gross assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_GAV_SUM,fpf,Form PF Statistics,Fund of funds: gross assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_GNE_CHANGE,fpf,Form PF Statistics,Fund of funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_GNE_PCTCHANGE,fpf,Form PF Statistics,Fund of funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_GNE_SUM,fpf,Form PF Statistics,Fund of funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Fund of funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Fund of funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_NAV_PCTCHANGE,fpf,Form PF Statistics,Fund of funds: net assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_FOF_NAV_SUM,fpf,Form PF Statistics,Fund of funds: net assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_COUNT,fpf,Form PF Statistics,Managed futures strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_GAV_PCTCHANGE,fpf,Form PF Statistics,Managed futures strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_GAV_SUM,fpf,Form PF Statistics,Managed futures strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_GNE_CHANGE,fpf,Form PF Statistics,Managed futures strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_GNE_PCTCHANGE,fpf,Form PF Statistics,Managed futures strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_GNE_SUM,fpf,Form PF Statistics,Managed futures strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_NAV_PCTCHANGE,fpf,Form PF Statistics,Managed futures strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_NAV_SUM,fpf,Form PF Statistics,Managed futures strategy funds: net assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_FUTURES_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Managed futures strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Macro strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_BORROWING_SUM,fpf,Form PF Statistics,Macro strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_COUNT,fpf,Form PF Statistics,Macro strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_GAV_PCTCHANGE,fpf,Form PF Statistics,Macro strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_GAV_SUM,fpf,Form PF Statistics,Macro strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_GNE_CHANGE,fpf,Form PF Statistics,Macro strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_GNE_PCTCHANGE,fpf,Form PF Statistics,Macro strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_GNE_SUM,fpf,Form PF Statistics,Macro strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_NAV_PCTCHANGE,fpf,Form PF Statistics,Macro strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_NAV_SUM,fpf,Form PF Statistics,Macro strategy funds: net assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_MACRO_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Macro strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Multi strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_BORROWING_SUM,fpf,Form PF Statistics,Multi strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_COUNT,fpf,Form PF Statistics,Multi strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_GAV_PCTCHANGE,fpf,Form PF Statistics,Multi strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_GAV_SUM,fpf,Form PF Statistics,Multi strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_GNE_CHANGE,fpf,Form PF Statistics,Multi strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_GNE_PCTCHANGE,fpf,Form PF Statistics,Multi strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_GNE_SUM,fpf,Form PF Statistics,Multi strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_NAV_PCTCHANGE,fpf,Form PF Statistics,Multi strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_NAV_SUM,fpf,Form PF Statistics,Multi strategy funds: net assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_MULTI_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Multi strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Other strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_BORROWING_SUM,fpf,Form PF Statistics,Other strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Other strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Other strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_COUNT,fpf,Form PF Statistics,Other strategy funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_GAV_PCTCHANGE,fpf,Form PF Statistics,Other strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_GAV_SUM,fpf,Form PF Statistics,Other strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_GNE_CHANGE,fpf,Form PF Statistics,Other strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_GNE_PCTCHANGE,fpf,Form PF Statistics,Other strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_GNE_SUM,fpf,Form PF Statistics,Other strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Other strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Other strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Other strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Other strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_NAV_PCTCHANGE,fpf,Form PF Statistics,Other strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_NAV_SUM,fpf,Form PF Statistics,Other strategy funds: net assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Other strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_OTHER_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Other strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_RV_BORROWING_PCTCHANGE,fpf,Form PF Statistics,Relative value strategy funds: borrowing (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_RV_BORROWING_SUM,fpf,Form PF Statistics,Relative value strategy funds: borrowing (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_RV_CASHRATIO_GAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: unencumbered cash ratio (percent of gross assets),Quarterly,2026-07-02
+FPF-STRATEGY_RV_CASHRATIO_NAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: unencumbered cash ratio (percent of net assets),Quarterly,2026-07-02
+FPF-STRATEGY_RV_COUNT,fpf,Form PF Statistics,Relative value funds: number of Qualifying Hedge Funds (count),Quarterly,2026-07-02
+FPF-STRATEGY_RV_GAV_PCTCHANGE,fpf,Form PF Statistics,Relative value strategy funds: gross assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_RV_GAV_SUM,fpf,Form PF Statistics,Relative value strategy funds: gross assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_RV_GNE_CHANGE,fpf,Form PF Statistics,Relative value strategy funds: gross notional exposure cumulative one-year change (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_RV_GNE_PCTCHANGE,fpf,Form PF Statistics,Relative value strategy funds: gross notional exposure (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_RV_GNE_SUM,fpf,Form PF Statistics,Relative value strategy funds: gross notional exposure (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_RV_GROSSRETURN_GAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: quarterly gross returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_RV_GROSSRETURN_NAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: quarterly gross returns (net asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_RV_LEVERAGERATIO_GAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: leverage (gross asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_RV_LEVERAGERATIO_NAVWMEAN,fpf,Form PF Statistics,Relative value strategy funds: leverage (net asset-weighted average ratio),Quarterly,2026-07-02
+FPF-STRATEGY_RV_NAV_PCTCHANGE,fpf,Form PF Statistics,Relative value strategy funds: net assets (percent change year-over-year),Quarterly,2026-07-02
+FPF-STRATEGY_RV_NAV_SUM,fpf,Form PF Statistics,Relative Value strategy funds: net assets (U.S. dollars),Quarterly,2026-07-02
+FPF-STRATEGY_RV_NETRETURN_GAVWMEAN,fpf,Form PF Statistics,Relative Value strategy funds: quarterly net returns (gross asset-weighted average percent),Quarterly,2026-07-02
+FPF-STRATEGY_RV_NETRETURN_NAVWMEAN,fpf,Form PF Statistics,Relative Value strategy funds: quarterly net returns (net asset-weighted average percent),Quarterly,2026-07-02
+SCOOS-NET_BSCAPACITY,scoos,SCOOS,Survey: lender balance sheet capacity as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-02
+SCOOS-NET_COLLATTERMS,scoos,SCOOS,Survey: collateral terms as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-02
+SCOOS-NET_CPSTRENGTH,scoos,SCOOS,Survey: counterparty strength as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-02
+SCOOS-NET_HF_CREDITAVAILABILITY,scoos,SCOOS,Survey: availability of leverage offered to hedge funds (net percent of respondents reporting a change),Quarterly,2026-07-02
+SCOOS-NET_HF_CREDITPRICE,scoos,SCOOS,Survey: credit price terms offered to hedge funds (net percent of respondents reporting a change),Quarterly,2026-07-02
+SCOOS-NET_HF_CREDITTERMS,scoos,SCOOS,Survey: credit nonprice terms offered to hedge funds (net percent of respondents reporting a change),Quarterly,2026-07-02
+SCOOS-NET_HF_LEVERAGEUSE,scoos,SCOOS,Survey: use of leverage offered to hedge funds (net percent of respondents reporting a change),Quarterly,2026-07-02
+SCOOS-NET_HF_MOSTFAVORED,scoos,SCOOS,Survey: provision of differential terms offered to most-favored hedge funds (net percent of respondents reporting a change),Quarterly,2026-07-02
+SCOOS-NET_HF_NEGOTIATIONEFFORTS,scoos,SCOOS,Survey: hedge funds’ efforts to negotiate more favorable credit terms (net percent of respondents reporting a change),Quarterly,2026-07-02
+SCOOS-NET_INTERNALCHARGES,scoos,SCOOS,Survey: internal funding charges as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-02
+SCOOS-NET_LENDERCOMPET,scoos,SCOOS,Survey: lender competition as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-02
+SCOOS-NET_LENDERWILLINGNESS,scoos,SCOOS,Survey: lender willingness as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-02
+SCOOS-NET_LIQCONDITIONS,scoos,SCOOS,Survey: general liquidity conditions as most important reason for a change in credit terms (net count of respondents),Quarterly,2026-07-02
+TFF-AI_TREAS_LONG_DV01,tff,CFTC Commitments of Traders,Asset managers: DV01 of long position in Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-AI_TREAS_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Asset managers: long 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-AI_TREAS_LONG_POSITION,tff,CFTC Commitments of Traders,Asset managers: long notional position in Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-AI_TREAS_SHORT_DV01,tff,CFTC Commitments of Traders,Asset managers: DV01 of short position in Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-AI_TREAS_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Asset managers: short 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-AI_TREAS_SHORT_POSITION,tff,CFTC Commitments of Traders,Asset managers: short notional position in Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-DI_TREAS_LONG_DV01,tff,CFTC Commitments of Traders,Dealers: DV01 of long position in Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-DI_TREAS_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Dealers: long 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-DI_TREAS_LONG_POSITION,tff,CFTC Commitments of Traders,Dealers: long notional position in Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-DI_TREAS_SHORT_DV01,tff,CFTC Commitments of Traders,Dealers: DV01 of short position in Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-DI_TREAS_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Dealers: short 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-DI_TREAS_SHORT_POSITION,tff,CFTC Commitments of Traders,Dealers: short notional position in Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_AD_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Australian dollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_AD_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Australian dollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_AD_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Australian dollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_BITCOIN_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Bitcoin futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_BITCOIN_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Bitcoin futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_BITCOIN_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Bitcoin futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_BP_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in British pound futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_BP_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in British pound futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_BP_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in British pound futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_BR_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Brazilian real futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_BR_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Brazilian real futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_BR_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Brazilian real futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_CD_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Canadian dollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_CD_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Canadian dollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_CD_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Canadian dollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_DJ_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in DJIA Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_DJ_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in DJIA Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_DJ_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in DJIA Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_DX_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Dollar index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_DX_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in U.S. Dollar Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_DX_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Dollar index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_EC_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Euro futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_EC_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Euro futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_EC_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Euro futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ED_LONG_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of long position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ED_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in eurodollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ED_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ED_NET_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of net position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ED_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ED_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ED_SHORT_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of short position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ED_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ED_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 3-month eurodollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ETHER_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Ether futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ETHER_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Ether futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ETHER_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Ether futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FF_LONG_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of long position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FF_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FF_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FF_NET_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of net position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FF_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FF_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FF_SHORT_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of short position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FF_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FF_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 30-day Fed Funds futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FV_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FV_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FV_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FV_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FV_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_FV_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 5-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_JY_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Japanese yen futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_JY_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Japanese yen futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_JY_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Japanese yen futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ND_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in NASDAQ 100 Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ND_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in NASDAQ 100 Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_ND_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in NASDAQ 100 Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_NV_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in New Zealand dollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_NV_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in New Zealand dollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_NV_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in New Zealand dollar futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_NX_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Nikkei 225 Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_NX_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Nikkei 225 Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_NX_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Nikkei 225 Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_PE_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Mexican peso futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_PE_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Mexican peso futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_PE_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Mexican peso futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_RA_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in South African rand futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_RA_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in South African rand futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_RA_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in South African rand futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SER_LONG_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of long position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SER_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SER_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SER_NET_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of net position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SER_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SER_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SER_SHORT_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of short position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SER_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SER_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 1-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SFR_LONG_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of long position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SFR_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SFR_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 3-month SOFR future (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SFR_NET_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of net position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SFR_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SFR_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 3-month SOFR future (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SFR_SHORT_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of short position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SFR_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 3-month SOFR futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SFR_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 3-month SOFR future (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SF_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in Swiss franc futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SF_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in Swiss franc futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SF_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in Swiss franc futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SP_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in S&P 500 Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SP_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in S&P 500 Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_SP_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in S&P 500 Index futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TREAS_LONG_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of long position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TREAS_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TREAS_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TREAS_NET_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of net position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TREAS_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TREAS_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TREAS_SHORT_DV01,tff,CFTC Commitments of Traders,Leveraged funds: DV01 of short position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TREAS_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TREAS_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TU_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TU_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TU_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TU_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TU_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TU_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 2-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TY_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TY_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TY_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TY_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TY_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_TY_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_US_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_US_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_US_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_US_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_US_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_US_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_UXY_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_UXY_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_UXY_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_UXY_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_UXY_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_UXY_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in ultra 10-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_VIX_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in VIX Index (U.S. dollars),Weekly,2026-07-02
+TFF-LF_VIX_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in VIX Index (U.S. dollars),Weekly,2026-07-02
+TFF-LF_VIX_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in VIX Index (U.S. dollars),Weekly,2026-07-02
+TFF-LF_WN_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: long 10-year equivalent position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_WN_LONG_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: long notional position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_WN_NET_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: net 10-year equivalent position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_WN_NET_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: net notional position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_WN_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Leveraged funds: short 10-year equivalent position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-LF_WN_SHORT_POSITION,tff,CFTC Commitments of Traders,Leveraged funds: short notional position in ultra 30-year Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-OR_TREAS_LONG_DV01,tff,CFTC Commitments of Traders,Other traders: DV01 of long position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-OR_TREAS_LONG_POS10YREQV,tff,CFTC Commitments of Traders,Other traders: long 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-OR_TREAS_LONG_POSITION,tff,CFTC Commitments of Traders,Other traders: long notional position in Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-OR_TREAS_SHORT_DV01,tff,CFTC Commitments of Traders,Other traders: DV01 of short position in Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-OR_TREAS_SHORT_POS10YREQV,tff,CFTC Commitments of Traders,Other traders: short 10-year equivalent position in all maturities of Treasury futures (U.S. dollars),Weekly,2026-07-02
+TFF-OR_TREAS_SHORT_POSITION,tff,CFTC Commitments of Traders,Other traders: short notional position in Treasury futures (U.S. dollars),Weekly,2026-07-02
